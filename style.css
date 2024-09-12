@@ -97,9 +97,9 @@ button:hover{
 .image-text{
     background-image: url(dog2.jpg);
     display: flex;
-    margin-bottom: 50px;
-    
+    margin-bottom: 0px;
 }
+
 .second-title{
     font-size: 40px;
     margin: 20px;
@@ -125,6 +125,13 @@ button:hover{
 p{
     color: white;
     font-size: 15px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    position: relative;
+    top: -9px;
+    left: -10px;
 }
 .imgs-text{
     display: flex;
@@ -150,52 +157,62 @@ p{
     align-content: center;
     
 }
-.dog-class{
+.dog-box{
     border-color: black;
     background-color: blue;
     margin-right: 70px;
     text-align: center;
-    width: 135px;
-    padding: 30px;
+    margin-right: 70px;
+    padding: 40px;
+    width: 120px;
     border-radius: 5px;
     color: white;
 }
-.dog-class:hover{
+.dog-box:hover{
     box-shadow: 0 0 5px cyan,
     0 0 25px blue, 0 0 50px blue,
     0 0 100px green, 0 0 200px orange;
 }
-.breed{
+.breed-box{
     border: 10px;
     border-color: black;
     background-color: blue;
     text-align: center;
     margin-right: 70px;
-    padding: 25px;
+    padding: 40px;
+    width: 120px;
     border-radius: 5px;
     color: white
   
 }
-.breed:hover{
+.breed-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 150px cyan;
+}
+.value-box{
+    border: 10px;
+    border-color: black;
+    background-color: blue;
+    text-align: center;
+    margin-right: 70px;
+    padding: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white
+
+}
+.value-box:hover{
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
 .Value{
-    border: 10px;
-    border-color: black;
-    background-color: blue;
+    background-color: black;
     text-align: center;
-    margin-right: 70px;
-    padding: 25px;
-    border-radius: 5px;
-    color: white
-
-}
-.Value:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+    position: relative;
+    top: 0px;
+    font-size: 20px;
 }
 
 
@@ -205,7 +222,7 @@ p{
     align-content: center;
 }
 
-.capital{
+.capital-box{
     margin-top: 30px;
     margin-bottom: 10px;
     width: 120px;
@@ -214,19 +231,20 @@ p{
     background-color: blue;
     text-align: center;
     margin-right: 70px;
-    padding: 25px;
+    padding: 40px;
+    width: 120px;
     border-radius: 5px;
     color: white
 
 }
-.capital:hover{
+.capital-box:hover{
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
 
 
-.Wallet{
+.wallet-box{
     border: 10px;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -235,17 +253,18 @@ p{
     background-color: blue;
     text-align: center;
     margin-right: 70px;
-    padding: 25px;
+    padding: 40px;
+    width: 120px;
     border-radius: 5px;
     color: white
     
 }
-.Wallet:hover {box-shadow: 0 0 5px cyan,
+.wallet-box:hover {box-shadow: 0 0 5px cyan,
 0 0 25px cyan, 0 0 50px cyan,
 0 0 100px cyan, 0 0 200px cyan;
 }
 
-.Network{
+.network-box{
     border: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -253,13 +272,51 @@ p{
     background-color: blue;
     text-align: center;
     margin-right: 70px;
-    padding: 25px;
+    padding: 40px;
+    width: 120px;
+    border-radius: 5px;
     border-radius: 5px;
     color: white
 }
-.Network:hover {box-shadow: 0 0 5px cyan,
+.network-box:hover {box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
     }
+.Network{
+    text-align: center;
+}    
+footer{
+    background: linear-gradient(to right, #00ffa63a, #ff8c0040);
+    padding: 70px;
+    border-width: 20px;
+    justify-items: center;
+    justify-content: space-between;
+    border-color: azure solid;  
+}
+.footer-divi>p{
+    color: black;
+     font-size: 40px;
+}
+.footer-cover{
+    display: flex;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    background-color: black;
+    padding: 1px;
+    border-radius: 60px;
+    position: relative;
+    top: 20px;
+    left:70%
+}
+.insagram{
     
+}
+.bx{
+    width: 50px;
+    padding:7px;
+    font-size: 40px;
+    color: white;
+}
 
